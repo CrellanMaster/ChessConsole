@@ -7,9 +7,9 @@
         public int QuantityMoviments { get; protected set; }
         public Board Tab { get; protected set; }
 
-        public Piece(Position position, Color color, Board tab)
+        public Piece(Color color, Board tab)
         {
-            Position = position;
+            Position = null;
             this.color = color;
             Tab = tab;
             QuantityMoviments = 0;
