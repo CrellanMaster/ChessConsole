@@ -1,5 +1,4 @@
-﻿
-namespace board
+﻿namespace board
 {
     enum Color
     {
